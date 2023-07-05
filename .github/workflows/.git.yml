@@ -13,4 +13,4 @@ jobs:
       - name: DIR
         run: dir
       - name: Checks2
-        run: bash deploy.sh
+        run: sh ./deploy.sh
