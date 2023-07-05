@@ -9,6 +9,8 @@
 
 pwd
 
+echo "Surajit"
+
 # echo "Deploying to ${DEPLOY_SERVER}"
 # scp -r build/ root@${DEPLOY_SERVER}:/var/www/html/${SERVER_FOLDER}/
 
