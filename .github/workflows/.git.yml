@@ -6,7 +6,9 @@ jobs:
   job_1:
     runs-on: ubuntu-latest
     steps:
-      - name: Checks
+      - name: PWD
         run: pwd
+      - name: LS
+        run: ls
       - name: Checks2
         run: bash /home/runner/work/react-class/.github/workflows/deploy.sh
