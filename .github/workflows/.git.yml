@@ -11,4 +11,4 @@ jobs:
       - name: LS
         run: ls
       - name: Checks2
-        run: bash /home/runner/work/react-class/.github/workflows/deploy.sh
+        run: bash deploy.sh
