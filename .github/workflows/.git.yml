@@ -10,7 +10,11 @@ jobs:
         run: pwd
       - name: LS
         run: ls
-      - name: DIR
-        run: echo hi > ci.sh
-      - name: Checks2
+      - name: Create 1
+        run: echo pwd > ci.sh
+      - name: Create 2
+        run: echo ls > ci1.sh
+      - name: Checks1
         run: sh ci.sh
+      - name: Checks2
+        run: sh ci1.sh
