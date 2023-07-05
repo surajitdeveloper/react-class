@@ -9,6 +9,8 @@
 
 pwd
 
+ls
+
 echo "Surajit"
 
 # echo "Deploying to ${DEPLOY_SERVER}"
