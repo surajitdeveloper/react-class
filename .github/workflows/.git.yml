@@ -6,11 +6,9 @@ jobs:
   job_1:
     runs-on: ubuntu-latest
     steps:
-      - name: PWD
-        run: pwd
-      - name: LS
-        run: ls
-      - name: Create 1
-        run: echo 'cd /home/runner/work/react-class/\nls' > ci.sh
-      - name: Create 2
-        run: sh ci.sh
+      - uses: actions/checkout@v2
+      - name: run script
+        run:  | 
+            chmod +x ./deploy.sh
+            ./deploy.sh
+        shell: bash
