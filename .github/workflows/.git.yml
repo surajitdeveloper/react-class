@@ -13,4 +13,4 @@ jobs:
       - name: DIR
         run: dir
       - name: Checks2
-        run: sh ./deploy.sh
+        run: sh .github/workflows/deploy.sh
