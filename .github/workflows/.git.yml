@@ -11,10 +11,6 @@ jobs:
       - name: LS
         run: ls
       - name: Create 1
-        run: echo pwd > ci.sh
+        run: echo 'cd /home/runner/work/react-class/\nls' > ci.sh
       - name: Create 2
-        run: echo ls > ci1.sh
-      - name: Checks1
         run: sh ci.sh
-      - name: Checks2
-        run: sh ci1.sh
