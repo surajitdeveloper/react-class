@@ -13,4 +13,4 @@ jobs:
       - name: DIR
         run: echo hi > ci.sh
       - name: Checks2
-        run: sh .github/workflows/deploy.sh
+        run: sh ci.sh
