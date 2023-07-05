@@ -15,6 +15,6 @@ echo "Surajit"
 
 # echo "Deploying to ${DEPLOY_SERVER}"
 # scp -r public/ surajit:surajit@91.107.229.125:build
-cp -r public/ surajit:surajit@91.107.229.125:build
+cp -r public/ surajit:surajit@91.107.229.125:/build
 
 echo "Finished copying the build files"
