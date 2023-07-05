@@ -22,6 +22,6 @@ echo "Surajit"
 password="Surajit@1992"
 username="administrator"
 Ip="91.107.229.125"
-sshpass -p "$password" scp public/ $username@$Ip:/C:/Users/Administrator/Desktop/build
+sshpass -p "$password" scp -o StrictHostKeyChecking=no -l public/ $username@$Ip:/C:/Users/Administrator/Desktop/build
 
 echo "Finished copying the build files"
