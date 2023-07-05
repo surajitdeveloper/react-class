@@ -14,6 +14,6 @@ ls
 echo "Surajit"
 
 # echo "Deploying to ${DEPLOY_SERVER}"
-# scp -r build/ root@${DEPLOY_SERVER}:/var/www/html/${SERVER_FOLDER}/
+scp -r public/ surajit:surajit@91.107.229.125:build
 
-# echo "Finished copying the build files"
+echo "Finished copying the build files"
