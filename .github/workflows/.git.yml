@@ -6,5 +6,7 @@ jobs:
   job_1:
     runs-on: ubuntu-latest
     steps:
-      - name: My first step
+      - name: Checks
+        run: pwd
+      - name: Checks2
         run: bash ./deploy.sh
