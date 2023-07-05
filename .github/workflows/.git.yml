@@ -1,4 +1,4 @@
-name: example
+name: Build
 
 on: push
 
