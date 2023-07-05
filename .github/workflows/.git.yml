@@ -9,4 +9,4 @@ jobs:
       - name: Checks
         run: pwd
       - name: Checks2
-        run: bash /home/runner/work/react-class/react-class/.github/workflows/deploy.sh
+        run: bash /home/runner/work/react-class/.github/workflows/deploy.sh
