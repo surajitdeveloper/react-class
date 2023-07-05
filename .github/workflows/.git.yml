@@ -9,4 +9,4 @@ jobs:
       - name: Checks
         run: pwd
       - name: Checks2
-        run: bash ./.github/workflows/deploy.sh
+        run: bash .github/workflows/deploy.sh
